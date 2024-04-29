@@ -5,9 +5,9 @@ theme:
       scheme: slate
 
 nav: 
-   - Home: index.md
-   - Notebook page: notebook.ipynb
-   - Python file: python_script.py
+   - Home: nlp.ipynb
+   - Notebook page: text-preprocessing.ipynb
+   - Python file: text-representation.ipynb
 plugins:
    mkdocs-jupyter:
       theme: dark
