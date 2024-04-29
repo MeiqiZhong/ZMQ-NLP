@@ -1,15 +1,18 @@
 site_name: ZMQ's NLP_Learning
+site_author: ZMQ
+site_description: About learning NLP
+
 theme: 
    name: material
-   palette:
-      scheme: slate
 
 nav: 
-   - Home: nlp.ipynb
-   - Notebook page: text-preprocessing.ipynb
-   - Python file: text-representation.ipynb
+   - Index: index.md
+   - Home: .\notebook\nlp.ipynb
+   - Notebook page: .\notebook\text-preprocessing.ipynb
+   - Python file: .\notebook\text-representation.ipynb
+
 plugins:
    mkdocs-jupyter:
-      theme: dark
-      include_source: True
+      notebook_dir: .\notebook
+      
 
