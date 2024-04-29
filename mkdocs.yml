@@ -1,6 +1,8 @@
 site_name: ZMQ's NLP_Learning
 theme: 
    name: material
+   palette:
+      scheme: slate
 
 nav: 
    Home: index.md
@@ -10,4 +12,4 @@ plugins:
    mkdocs-jupyter:
       theme: dark
       include_source: True
-      
+
