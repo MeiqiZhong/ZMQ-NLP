@@ -1,3 +1,13 @@
 site_name: ZMQ's NLP_Learning
 theme: 
    name: material
+
+nav: 
+   Home: index.md
+   Notebook page: notebook.ipynb
+   Python file: python_script.py
+plugins:
+   mkdocs-jupyter:
+      theme: dark
+      include_source: True
+      
