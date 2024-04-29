@@ -5,9 +5,9 @@ theme:
       scheme: slate
 
 nav: 
-   Home: index.md
-   Notebook page: notebook.ipynb
-   Python file: python_script.py
+   - Home: index.md
+   - Notebook page: notebook.ipynb
+   - Python file: python_script.py
 plugins:
    mkdocs-jupyter:
       theme: dark
