@@ -12,7 +12,6 @@ nav:
    - Python file: .\notebook\text-representation.ipynb
 
 plugins:
-   mkdocs-jupyter:
-      notebook_dir: .\notebook
+   - mkdocs-jupyter
       
 
